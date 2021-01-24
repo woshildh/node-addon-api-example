@@ -1,0 +1,17 @@
+{
+  "name": "callbacks",
+  "version": "1.0.0",
+  "description": "test callback",
+  "main": "addon.js",
+  "scripts": {
+    "test": "node addon.js",
+    "install": "node-gyp rebuild"
+  },
+  "dependencies": {
+    "node-addon-api": "3.1.0",
+    "bindings": "1.5.0"
+  },
+  "author": "ldh",
+  "license": "ISC",
+  "gypfile": true
+}

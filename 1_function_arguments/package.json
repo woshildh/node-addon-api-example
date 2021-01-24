@@ -1,0 +1,18 @@
+{
+  "name": "function_arguments",
+  "version": "1.0.0",
+  "description": "function callback with parameters",
+  "main": "addon.js",
+  "scripts": {
+    "test": "node addon.js",
+    "install": "node-gyp rebuild"
+  },
+  "private": true,
+  "dependencies": {
+    "bindings": "~1.2.1",
+    "node-addon-api": "^1.0.0"
+  },
+  "author": "ldh",
+  "license": "ISC",
+  "gypfile": true
+}
